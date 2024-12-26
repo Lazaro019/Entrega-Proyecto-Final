@@ -1,0 +1,95 @@
+body{
+    font-family: 'Noto Sans JP';
+    margin: 0;
+}
+
+header div {
+    padding: 50px;
+    background-color: #015875;
+    color: #55DDE0;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: x-large;
+}
+
+header a {
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+main{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+main h2{
+    justify-content: center;
+    align-items: center;
+}
+
+#destacados {
+    background-color: #55dee0af;
+}
+
+#destacados h2{
+    text-align: center ;
+    font-size: xx-large;
+}
+
+.juegos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.juego {
+    border: solid #015875;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.juego img {
+    width: 250px;
+}
+
+#opiniones {
+    background-color: aquamarine;
+}
+
+@media (max-width: 800px) {
+    .reseñas {
+        grid-template-columns: 1fr;
+    }
+}
+
+.reseña {
+    border: solid #015875;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 15px;
+}
+ 
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}

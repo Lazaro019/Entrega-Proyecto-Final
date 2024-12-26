@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./CSS/StylesContacto.CSS">
+</head>
+<body>
+    <header>
+        <a href="./index.html" target="_self"><img src="./Img/logo1.png" width="150" alt="150"></a>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="./productos.html" target="_blank">Productos</a></li>
+                <li><a href="./index.html" target="_blank">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <form action="" method="post">
+            <fieldset>
+               <legend>Datos personales</legend>
+               <p>
+               <label for="nombre">Nombre: 
+               <input name="nombre" id="nombre" type="text" required>
+               </label>
+               <label for="apellido">Apellido:
+                <input name="apellido" id="apellido" type="text" required>
+               </label> 
+               </p>
+               <p>
+                <label for="telefono">Numero de telefono:
+                    <input name="telefono" id="telefono" type="text" required>
+                </label>
+                <label for="correo">Correo electronico:
+                    <input name="Correo" id="correo" type="email" required>
+                </label>
+               </p>
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios</legend>
+                <label for="comentario">
+                    <textarea name="comentario" id="comentario" rows="8" cols="50"></textarea>
+                </label>
+                <input type="submit" id="enviar">
+            </fieldset>
+
+        </form>
+    </main>
+    <footer>
+        <h2>Horario de atencion: 10-18hs</h2>
+        <h2>11 3324-1111</h2>
+    </footer>
+    <script src="./JS/contacto.js"></script>
+</body>
+</html>
